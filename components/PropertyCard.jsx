@@ -4,8 +4,7 @@ import BedSingleIcon from "./BedSingleIcon";
 import ArrowDownIcon from "./ArrowDownIcon";
 import BathroomIcon from "./BathroomIcon";
 import AreaSquareIcon from "./AreaSquareIcon";
-import PopularRibbon from "./Popularribbon";
-import SparkleIcon from "./SparkleIcon";
+import PopularRibbon from "./PopularRibbon";
 
 const PropertyCard = ({
   imageUrl,
