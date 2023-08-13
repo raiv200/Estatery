@@ -9,7 +9,7 @@ export const NavLinks = [
 export const DUMMY_DATA = [
   {
     name: "Cozy Downtown Apartment",
-    location: "New York City",
+    location: "New York",
     address: "123 Main St, New York, NY",
     price_per_month: 2000,
     bedrooms: 2,
@@ -19,7 +19,7 @@ export const DUMMY_DATA = [
     image_url:
       "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     property_type: "Apartment",
-    move_in_date: "2023-09-01",
+    move_in_date: "2023-08-18",
   },
   {
     name: "Spacious Suburban House",
@@ -30,8 +30,8 @@ export const DUMMY_DATA = [
     bathrooms: 3,
     area: "150 x 200",
     is_popular: false,
-    image_url:
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    image_url:"https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+
     property_type: "House",
     move_in_date: "2023-08-15",
   },
@@ -47,12 +47,12 @@ export const DUMMY_DATA = [
     image_url:
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     property_type: "Apartment",
-    move_in_date: "2023-09-10",
+    move_in_date: "2023-08-16",
   },
   {
     name: "Quaint Countryside Cottage",
-    location: "Rural Vermont",
-    address: "101 Maple Ln, Rural Vermont, VT",
+    location: "New York",
+    address: "101 Maple Ln, New York, VT",
     price_per_month: 1800,
     bedrooms: 1,
     bathrooms: 1,
@@ -60,8 +60,8 @@ export const DUMMY_DATA = [
     is_popular: false,
     image_url:
       "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-    property_type: "Townouse",
-    move_in_date: "2023-08-20",
+    property_type: "Townhouse",
+    move_in_date: "2023-08-15",
   },
   {
     name: "Modern Urban Loft",
@@ -75,12 +75,12 @@ export const DUMMY_DATA = [
     image_url:
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     property_type: "Apartment",
-    move_in_date: "2023-09-05",
+    move_in_date: "2023-08-17",
   },
   {
     name: "Charming Suburb Home",
-    location: "Chicago",
-    address: "303 Oak Rd, Chicago, IL",
+    location: "Miami",
+    address: "303 Oak Rd, Miami, IL",
     price_per_month: 3000,
     bedrooms: 3,
     bathrooms: 2,
@@ -89,12 +89,12 @@ export const DUMMY_DATA = [
     image_url:
       "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     property_type: "Townouse",
-    move_in_date: "2023-08-25",
+    move_in_date: "2023-08-14",
   },
   {
     name: "Studio Apartment",
-    location: "Seattle",
-    address: "404 Cedar St, Seattle, WA",
+    location: "San Francisco",
+    address: "404 Cedar St, San Francisco, WA",
     price_per_month: 1200,
     bedrooms: 1,
     bathrooms: 1,
@@ -103,12 +103,12 @@ export const DUMMY_DATA = [
     image_url:
       "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     property_type: "Apartment",
-    move_in_date: "2023-09-15",
+    move_in_date: "2023-08-16",
   },
   {
     name: "Country Villa",
-    location: "Napa Valley",
-    address: "505 Vine Rd, Napa Valley, CA",
+    location: "Los Angeles",
+    address: "505 Vine Rd, Los Angeles, CA",
     price_per_month: 5000,
     bedrooms: 5,
     bathrooms: 4,
@@ -117,12 +117,12 @@ export const DUMMY_DATA = [
     image_url:
       "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     property_type: "House",
-    move_in_date: "2023-08-18",
+    move_in_date: "2023-08-15",
   },
   {
     name: "Oceanfront Condo",
-    location: "Miami Beach",
-    address: "606 Beach Blvd, Miami Beach, FL",
+    location: "Miami",
+    address: "606 Beach Blvd, Miami, FL",
     price_per_month: 4500,
     bedrooms: 2,
     bathrooms: 2,
@@ -130,19 +130,19 @@ export const DUMMY_DATA = [
     is_popular: true,
     image_url: "https://images.unsplash.com/photo-1584738766473-61c083514bf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     property_type: "Apartment",
-    move_in_date: "2023-09-20",
+    move_in_date: "2023-08-15",
   },
   {
     name: "Historic Townhouse",
-    location: "Charleston",
-    address: "707 Oak St, Charleston, SC",
+    location: "New York",
+    address: "707 Oak St, New York, SC",
     price_per_month: 2800,
     bedrooms: 3,
     bathrooms: 2,
     area: "100 x 110",
     is_popular: false,
     image_url: "https://images.unsplash.com/photo-1625602812206-5ec545ca1231?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-    property_type: "Townouse",
-    move_in_date: "2023-08-28",
+    property_type: "Townhouse",
+    move_in_date: "2023-08-16",
   },
 ];

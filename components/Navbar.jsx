@@ -28,8 +28,12 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center justify-center gap-4">
-        <button>Login</button>
-        <button>Signup</button>
+      <button className="border-[1px] border-[#7065f0] text-md font-semibold text-[#7065f0] rounded-md px-4 py-2">
+            Login
+          </button>
+          <button className="bg-[#7065f0] text-md font-semibold text-white rounded-md px-4 py-2">
+            Signup
+          </button>
       </div>
     </nav>
   );
